@@ -8,9 +8,11 @@ int main(void)
 {
 	int i;
 
-	for (i = 48; i <= 48 + 9; i++)
+	for (i = 48; i <= 57; i++)
 	{
 		putchar(i);
+		if (i == 57)
+			break;
 		putchar(44);
 		putchar(32);
 	}
