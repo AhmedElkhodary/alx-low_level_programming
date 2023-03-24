@@ -8,7 +8,7 @@
  * Return: 1(upercase)  0(otherwise)
  */
 
-int main(int c)
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 		return (1);
